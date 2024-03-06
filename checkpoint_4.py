@@ -7,6 +7,9 @@ diccionario = {'nombre' : 'Daniel', 'edad' : '28', 'ciudad' : 'Bilbao'}
 
 from decimal import Decimal
 numero_decimal = 5.12
+operador = 99.654
+total= numero_decimal + operador
+print(Decimal(total))
 
 #Segundo punto 
 import math
